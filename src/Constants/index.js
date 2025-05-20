@@ -28,6 +28,7 @@ const words = [
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
+
 const counterItems = [
   { value: 13, suffix: "+", label: "Months of Experience" },
   { value: 35, suffix: "+", label: "Completed Projects" },
