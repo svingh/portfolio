@@ -33,37 +33,28 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/logos/tsz.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/images/logos/mathnasium.png",
   },
   {
     imgPath: "/images/logos/company-logo-4.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
     imgPath: "/images/logos/company-logo-9.png",
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: "/images/logos/tsz.png",
   },
   {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/images/logos/mathnasium.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-4.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-9.png",
   },
 ];
 
@@ -108,74 +99,46 @@ const techStackImgs = [
   },
 ];
 
-const techStackIcons = [
-  {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
-  },
-  {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
-  },
-];
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
-    responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-    ],
-  },
-  {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
+    review: "Hired as a reference Vikramjeet has stayed onboard cause of his skills and proficieny as a tutor and his grasp on mathematical and programming concepts.",
+    imgPath: "/images/logos/mathnasium.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Instructor",
+    date: "Aug 2023 - present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Instructed students in high school mathematics, including algebra, geometry, trigonometry, and calculus, with a focus on conceptual clarity and problem-solving.",
+
+"Taught web development fundamentals using HTML, CSS, JavaScript, Python, and SQL through interactive projects and real-world examples.",
+
+"Developed customized lesson plans and provided individual support to help students build confidence and achieve academic goals.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review: "Vikramjeet demonstrated great proficency as a developer, he is a quick learner with a high apptitude for problem solving and decision making.",
+    imgPath: "/images/logos/tsz.png",
+    logoPath: "/images/logo1.png",
+    title: "Full Stack Developer intern",
+    date: "May 2024 - Aug 2024",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed full-stack features using React.js (TypeScript) on the frontend and Spring Boot (Java) on the backend, with seamless integration via RESTful APIs.",
+  "Leveraged Firebase for user authentication, real-time database updates, and cloud functions to accelerate backend service deployment.",
+ "Integrated LLM APIs such as ChatGPT and Google Gemini to power AI-driven features like smart search, user recommendations, and automated support responses.",
+ "Gained hands-on experience with Docker, CI/CD pipelines, MariaDB, and Agile development practices, while working in a collaborative, fast-paced startup environment",
+    ],
+  },
+  {
+    review: "Returning for a second term, with more refined skills as a frontend Developer, with a new and well adapted knowledge of backennd services, His performance was a great reflection of his skills.",
+    imgPath: "/images/logos/tsz.png",
+    logoPath: "/images/logo3.png",
+    title: "Frontend Developer intern",
+    date: "May 2023 - Aug 2023",
+    responsibilities: [
+      "Developed dynamic, mobile-responsive interfaces using React.js, TypeScript, and Tailwind CSS, focusing on performance and accessibility.",
+ "Collaborated with cross-functional teams to integrate REST APIs, using Figma for UI/UX implementation and Git for version control.",
+ "Gained hands-on experience with modern frontend practices including component-based architecture, state management, and unit testing with Jest.",
+ "Explored and implemented emerging tools and technologies such as Vite.js for faster builds, React Query for efficient data fetching, and CI/CD integration for automated deployments.",
     ],
   },
 ];
@@ -195,50 +158,6 @@ const expLogos = [
   },
 ];
 
-const testimonials = [
-  {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
-  },
-  {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
-  },
-];
 
 const socialImgs = [
   {
@@ -266,9 +185,7 @@ export {
   counterItems,
   expCards,
   expLogos,
-  testimonials,
   socialImgs,
-  techStackIcons,
   techStackImgs,
   navLinks,
 };

@@ -10,6 +10,7 @@ const Showcase = () => {
     const project1Ref = useRef(null);
     const project2Ref = useRef(null);
     const project3Ref = useRef(null);
+    const project4Ref = useRef(null);
 
 
     useGSAP(()=>{
@@ -23,7 +24,7 @@ const Showcase = () => {
             }
         );
 
-        const cards = [project1Ref.current, project2Ref.current, project3Ref.current];
+        const cards = [project1Ref.current, project2Ref.current, project3Ref.current, project4Ref.current];
 
         cards.forEach((card,index) => {
             gsap.fromTo(
@@ -47,6 +48,7 @@ const Showcase = () => {
     },[]);
 
     return (
+
         <div id='work' className='app-showcase' ref={sectionRef}>
             <div  className='w-full'>
                 <div className='showcaselayout'>
@@ -55,8 +57,43 @@ const Showcase = () => {
                             <img src='/images/project1.png' alt='project1'/>
                         </div>
                         <div className='text-content'>
-                            <h2>write project description</h2>
-                            <p className='text-white-50 md:text-xl'>write some description</p>
+                            <h2>PrepWise</h2>
+                            <p className='text-white-50 md:text-xl'>Next.js, 
+                                Firebase, 
+                                Tailwind CSS,
+                                Vapi AI, 
+                                shadcn/ui, 
+                                Google Gemeni, 
+                                Zod <br></br> 
+                                <span className='text-lg italic text-white'>
+                                    Prepwise is a sleek, modern react based platform designed to help users master 
+                                    job interview preparation through interactive, AI-powered learning experiences.
+                                </span>
+                            </p>
+                        </div>
+                        <div className='image-wrapper mt-10'>
+                            <img src='/images/project1.png' alt='project1'/>
+                        </div>
+                        <div className='text-content'>
+                            <h2>Ecolens</h2>
+                            <p className='text-white-50 md:text-xl'>
+                                React, 
+                                Jest, 
+                                JUnit, 
+                                Docker, 
+                                MSW, 
+                                Springboot, 
+                                MariaDb, 
+                                CI/CD, 
+                                Recharts and More,
+                                <br></br>
+
+                                <span className='text-lg italic text-white'>
+                                    Ecolens serves as a water contamination monitoring 
+                                    service which allows for active monitoring of contaminents
+                                     in water in every logged region of Canada and offers mutliple visualization elements
+                                </span>
+                            </p>
                         </div>
                     </div>
 
@@ -65,14 +102,21 @@ const Showcase = () => {
                             <div className='image-wrapper bg-[#ffefdb]'>
                                 <img src='/images/project2.png'/>
                             </div>
-                            <h2>Second project</h2>
+                            <h2>Zentry Clone</h2>
                         </div>
                         <div className='project' ref={project3Ref}>
                             <div className='image-wrapper bg-[#ffefdb]'>
                                 <img src='/images/project3.png'/>
                             </div>
-                            <h2>Second project</h2>
+                            <h2>Billiards / 8 ball pool</h2>
                         </div>
+                        <div className='project' ref={project4Ref}>
+                            <div className='image-wrapper bg-[#ffefdb]'>
+                                <img src='/images/project3.png'/>
+                            </div>
+                            <h2>Portfolio </h2>
+                        </div>
+                        
                     </div>
 
                 </div>
