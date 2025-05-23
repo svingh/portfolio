@@ -67,7 +67,7 @@ const abilities = [
   {
     imgPath: "/images/chat.png",
     title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    desc: "Keeping the team updated at every step to ensure transparency and clarity.",
   },
   {
     imgPath: "/images/time.png",
@@ -104,7 +104,7 @@ const expCards = [
   {
     review: "Hired as a reference Vikramjeet has stayed onboard cause of his skills and proficieny as a tutor and his grasp on mathematical and programming concepts.",
     imgPath: "/images/logos/mathnasium.png",
-    logoPath: "/images/logo2.png",
+    logoPath: "/images/math.png",
     title: "Instructor",
     date: "Aug 2023 - present",
     responsibilities: [
@@ -118,7 +118,7 @@ const expCards = [
   {
     review: "Vikramjeet demonstrated great proficency as a developer, he is a quick learner with a high apptitude for problem solving and decision making.",
     imgPath: "/images/logos/tsz.png",
-    logoPath: "/images/logo1.png",
+    logoPath: "/images/TSZL.png",
     title: "Full Stack Developer intern",
     date: "May 2024 - Aug 2024",
     responsibilities: [
@@ -131,7 +131,7 @@ const expCards = [
   {
     review: "Returning for a second term, with more refined skills as a frontend Developer, with a new and well adapted knowledge of backennd services, His performance was a great reflection of his skills.",
     imgPath: "/images/logos/tsz.png",
-    logoPath: "/images/logo3.png",
+    logoPath: "/images/TSZL.png",
     title: "Frontend Developer intern",
     date: "May 2023 - Aug 2023",
     responsibilities: [
@@ -161,20 +161,19 @@ const expLogos = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "Github",
+    imgPath: "/images/gHub.png",
+    url: 'https://github.com/svingh',
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: 'https://www.linkedin.com/in/vikramjeet-singh-61b562221/',
+  },
+  {
+    name: "Resume",
+    imgPath: "/images/resume.png",
+    url: '',
   },
 ];
 

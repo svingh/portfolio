@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
+import Button from '../Components/Button';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -53,8 +54,8 @@ const Showcase = () => {
             <div  className='w-full'>
                 <div className='showcaselayout'>
                     <div className='first-project-wrapper' ref={project1Ref}>
-                        <div className='image-wrapper'>
-                            <img src='/images/project1.png' alt='project1'/>
+                        <div className='image-wrapper border-4 rounded-lg'>
+                            <img src='/images/prepwise.png' alt='project1'/>
                         </div>
                         <div className='text-content'>
                             <h2>PrepWise</h2>
@@ -71,8 +72,8 @@ const Showcase = () => {
                                 </span>
                             </p>
                         </div>
-                        <div className='image-wrapper mt-10'>
-                            <img src='/images/project1.png' alt='project1'/>
+                        <div className='image-wrapper mt-10 border-4 rounded-2xl'>
+                            <img src='/images/ecolens.png' alt='project1'/>
                         </div>
                         <div className='text-content'>
                             <h2>Ecolens</h2>
@@ -100,22 +101,34 @@ const Showcase = () => {
                     <div className='project-list-wrapper overflow-hidden'>
                         <div className='project' ref={project2Ref}>
                             <div className='image-wrapper bg-[#ffefdb]'>
-                                <img src='/images/project2.png'/>
+                                <img className=' py-2' src='/images/Zentry.png'/>
                             </div>
                             <h2>Zentry Clone</h2>
+                            <p> React, GSAP, Tailwind</p>
                         </div>
                         <div className='project' ref={project3Ref}>
                             <div className='image-wrapper bg-[#ffefdb]'>
-                                <img src='/images/project3.png'/>
+                                <img src='/images/8ball.png'/>
                             </div>
                             <h2>Billiards / 8 ball pool</h2>
+                            <p>C, SWIG, Python, SQL, HTML, CSS, JavaScript</p>
                         </div>
                         <div className='project' ref={project4Ref}>
                             <div className='image-wrapper bg-[#ffefdb]'>
-                                <img src='/images/project3.png'/>
+                                <img src='/images/portfolio.png'/>
                             </div>
                             <h2>Portfolio </h2>
+                            <p>ThreeJS, React, GSAP, EmailJS, Tailwind</p>
                         </div>
+                        <a href='https://github.com/svingh'>
+                        <div className='cta-button group'>
+                        <div className='bg-circle'/>
+                            <p className='text'>Github</p>
+                            <div className='arrow-wrapper rotate-270'>
+                                <img src='/images/arrow-down.svg' alt='arrow'/>
+                            </div>
+                         </div>
+                        </a>
                         
                     </div>
 
