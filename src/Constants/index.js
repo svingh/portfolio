@@ -129,7 +129,7 @@ const expCards = [
     ],
   },
   {
-    review: "Returning for a second term, with more refined skills as a frontend Developer, with a new and well adapted knowledge of backennd services, His performance was a great reflection of his skills.",
+    review: "Returning for a second term, with more refined skills as a frontend Developer, with a new and well adapted knowledge of backend services, His performance was a great reflection of his skills.",
     imgPath: "/images/logos/tsz.png",
     logoPath: "/images/TSZL.png",
     title: "Frontend Developer intern",
