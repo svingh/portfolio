@@ -173,7 +173,7 @@ const socialImgs = [
   {
     name: "Resume",
     imgPath: "/images/resume.png",
-    url: '',
+    url: '/resumeVIK.pdf',
   },
 ];
 
