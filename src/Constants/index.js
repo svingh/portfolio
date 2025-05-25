@@ -94,8 +94,20 @@ const techStackImgs = [
     imgPath: "/images/logos/three.png",
   },
   {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
+    name: "Java Developer", // For Spring Boot, Java
+    imgPath: "/images/logos/java.png",
+  },
+  {
+    name: "Database Developer", // For PostgreSQL, MariaDB, SQL
+    imgPath: "/images/logos/database.png",
+  },
+  {
+    name: "DevOps Engineer", // For Docker, CI/CD
+    imgPath: "/images/logos/devops.png",
+  },
+  {
+    name: "Next.js Developer",
+    imgPath: "/images/logos/nextjs.png",
   },
 ];
 
