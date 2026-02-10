@@ -16,7 +16,6 @@ const App = () => {
             <Showcase/>
             <SoftSkills/>
             <Experience/>
-            <TechStack/>
             <Contact/>
             <Footer/>
         </>

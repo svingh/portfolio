@@ -114,7 +114,7 @@ const techStackImgs = [
 
 const expCards = [
   {
-    review: "Hired as a reference Vikramjeet has stayed onboard cause of his skills and proficieny as a tutor and his grasp on mathematical and programming concepts.",
+    review: "",
     imgPath: "/images/logos/mathnasium.png",
     logoPath: "/images/math.png",
     title: "Instructor",
@@ -128,29 +128,44 @@ const expCards = [
     ],
   },
   {
-    review: "Vikramjeet demonstrated great proficency as a developer, he is a quick learner with a high apptitude for problem solving and decision making.",
+    review: "",
     imgPath: "/images/logos/tsz.png",
     logoPath: "/images/TSZL.png",
-    title: "Full Stack Developer intern",
-    date: "May 2024 - Aug 2024",
+    title: "IT Support and Systems",
+    date: "Sep 2024 - Dec 2024 · Contract Part-time",
     responsibilities: [
-      "Developed full-stack features using React.js (TypeScript) on the frontend and Spring Boot (Java) on the backend, with seamless integration via RESTful APIs.",
-  "Leveraged Firebase for user authentication, real-time database updates, and cloud functions to accelerate backend service deployment.",
- "Integrated LLM APIs such as ChatGPT and Google Gemini to power AI-driven features like smart search, user recommendations, and automated support responses.",
- "Gained hands-on experience with Docker, CI/CD pipelines, MariaDB, and Agile development practices, while working in a collaborative, fast-paced startup environment",
+      "Resolved escalated Level 1 tickets involving OS failures, application crashes, hardware malfunctions, and connectivity issues.",
+      "Provided on-site and remote deskside support for desktops, laptops, printers, and peripherals, ensuring minimal user downtime.",
+      "Managed user accounts, permissions, and access using Active Directory, following least-privilege principles.",
+      "Performed system imaging, upgrades, and software deployments on Windows systems.",
+      "Maintained ticket documentation and asset updates in Jira, aligned with ITIL incident and change workflows.",
     ],
   },
+
   {
-    review: "Returning for a second term, with more refined skills as a frontend Developer, with a new and well adapted knowledge of backend services, His performance was a great reflection of his skills.",
+    review: "",
     imgPath: "/images/logos/tsz.png",
     logoPath: "/images/TSZL.png",
-    title: "Frontend Developer intern",
-    date: "May 2023 - Aug 2023",
+    title: "IT Support & Systems Intern",
+    date: "May 2024 - Aug 2024 · Internship",
     responsibilities: [
-      "Developed dynamic, mobile-responsive interfaces using React.js, TypeScript, and Tailwind CSS, focusing on performance and accessibility.",
- "Collaborated with cross-functional teams to integrate REST APIs, using Figma for UI/UX implementation and Git for version control.",
- "Gained hands-on experience with modern frontend practices including component-based architecture, state management, and unit testing with Jest.",
- "Explored and implemented emerging tools and technologies such as Vite.js for faster builds, React Query for efficient data fetching, and CI/CD integration for automated deployments.",
+      "Delivered frontline end-user support, diagnosing hardware, OS, and application issues across Windows and Linux systems.",
+      "Assisted with workstation setup, peripheral configuration, and OS provisioning for new hires.",
+      "Supported basic network troubleshooting including local connectivity issues and VPN access.",
+      "Documented resolutions and procedures to improve knowledge base accuracy and first-call resolution rates.",
+    ],
+  },
+  
+  {
+    review: "",
+    imgPath: "/images/logos/out_two.jpeg",
+    logoPath: "/images/logos/out_two.jpeg",
+    title: "Quality Assurance Contractor",
+    date: "May 2025 - present",
+    responsibilities: [
+      "Reviewed 50, 000+ LLM Python/Java code, resolving architectural flaws and vulnerabilities, boosting quality",
+ "Developed 500+ Pytest/JUnit test cases, achieving 90-100% coverage. Ensured correct data sets for AI models.",
+ "Implemented Python/Java code fixes/optimizations from reviews and testing. Reducing critical defects upto 39%",
     ],
   },
 ];
@@ -181,11 +196,6 @@ const socialImgs = [
     name: "linkedin",
     imgPath: "/images/linkedin.png",
     url: 'https://www.linkedin.com/in/vikramjeet-singh-61b562221/',
-  },
-  {
-    name: "Resume",
-    imgPath: "/images/resume.png",
-    url: '/resumeVIK.pdf',
   },
 ];
 
